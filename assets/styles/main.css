@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202020;
+    color:#ffffff;
+    font-family: 'Readex Pro';
+    font-family: 'Jost', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+#social-list i{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-list a:hover{
+    background-color: #616161;
+}
+
+#skills ul li{
+    font-size: 13px;
+}
+.bg-lighter{
+    background-color: #313131;
+}
