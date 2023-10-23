@@ -25,7 +25,7 @@ body{
 }
 
 #social-list a:hover{
-    background-color: #616161;
+    background-color: #000000;
 }
 
 #skills ul li{
@@ -34,3 +34,24 @@ body{
 .bg-lighter{
     background-color: #313131;
 }
+
+.accordion{
+    --bs-accordion-bg: #212529;
+    --bs-accordion-btn-bg:#212529;
+    --bs-accordion-active-bg: #202020;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-btn-focus-box-shadow:#212529;
+    --bs-accordion-btn-border: #212529;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-border-color:unset;
+    --bs-accordion-padding-y:0;
+    --bs--accordion-margin-x: 0;
+    --bs--accordion-margin-y:0;
+    --bs-accordion-padding-x: 0;
+    --bs-accordion-body-padding-y:0;
+    --bs-accordion-body-padding-x: 0;
+    --bs-accordion-button-padding-x:0;
+    --bs-accordion-button-padding-y: 0;
+}
+
